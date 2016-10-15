@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            margin: 2px;
+            text-align: center;
+            font-size: 14px;
+        }
+        caption{
+            text-align: left;
+        }
+        .title{
+            font-size: 16px;
+            background-color: #e6e6e6;
+        }
+        td>i{
+            display: inline-block;
+            vertical-align: middle;
+            background-image: url(img/table_icon.png);
+        }
+        input{
+            width: 80px;
+        }
+        .icon-add{
+            width: 23px;
+            height: 23px;
+            background-position: 0 0;
+        }
+        .icon-delete{
+            width: 18px;
+            height: 18px;
+            background-position: 18px 0;
+        }
+        button{
+            margin: 5px auto;
+            width: 50px;
+            height: 25px;
+            font-size: 14px;
+            border: 1px solid #e6e6e6;
+            border-radius: 3px;
+            background-color: cadetblue;
+        }
+        #info{
+            display: none;
+            text-align: left;
+            color: firebrick;
+         }
+    </style>
+</head>
+<body>
+<table id="popup_tab">
+    <caption>
+        请输入依次点击的元素id以及距离上一次点击的延时(ms)
+    </caption>
+    <thead>
+        <tr>
+            <td class="title">ID</td>
+            <td class="title">延时</td>
+            <td>
+                <i class="icon-add"></i>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><input></td>
+            <td><input></td>
+            <td>
+                <i class="icon-delete"></i>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<button id="confirm">
+    确定
+</button>
+<div id="info">
+    设置成功，请刷新页面
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/popup.js"></script>
+</body>
+</html>

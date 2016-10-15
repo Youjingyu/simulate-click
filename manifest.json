@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "simulate click",
+  "description": "simulate a click extention",
+  "version": "1.0",
+  "icons":{
+    "16": "img/click16.png",
+    "48": "img/click48.png",
+    "128": "img/click128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "img/click16.png"
+    },
+    "default_title": "simulate click",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["js/backgrouud.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://localhost:*/*","file://*"],
+      "js": ["js/jquery.js", "js/click.js"]
+    }
+  ]
+}
