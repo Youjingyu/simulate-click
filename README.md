@@ -7,7 +7,7 @@
 * 安装：将simulate-click.crx拖入chrome的扩展程序界面，即可安装
 * 打开本地开发的页面，点击插件icon，输入依次需要点击的dom元素id，以及每次点击之间的延时，如下图所示
 <br>
-![image](https://github.com/Youjingyu/simulate-click/blob/master/example.png)
+![image](https://github.com/Youjingyu/simulate-click/blob/master/example1.png)
 <br>
 * 刷新页面，插件会依次触发输入id对应的dom元素的点击事件
 <br>
