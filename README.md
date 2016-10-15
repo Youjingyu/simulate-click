@@ -1,6 +1,6 @@
 # simulate-click
 * 一个自动触发页面点击事件的chrome插件
-* 自动触发开发单页面web应用时繁琐的点击操作，对多页面应用依然有效
+* 自动完成开发单页面web应用时繁琐的点击操作，对多页面应用依然有效
 <br>
 
 ## 使用
@@ -9,7 +9,7 @@
 <br>
 ![image](https://github.com/Youjingyu/simulate-click/blob/master/example.png)
 <br>
-* 刷新页面，插件会自动依次点击输入id对应的dom元素
+* 刷新页面，插件会依次触发输入id对应的dom元素的点击事件
 <br>
 
 ## 注意
